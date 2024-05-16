@@ -39,14 +39,20 @@ const Home = () => {
           <div className="container mx-auto px-6 flex relative py-16">
             <div className="sm:w-2/3 lg:w-2/5 flex flex-col relative z-20">
               <span className="w-20 h-2 bg-gray-800 dark:bg-white mb-12"></span>
-              <h1 className="font-bebas-neue uppercase text-6xl sm:text-8xl font-black flex flex-col leading-none dark:text-black text-gray-800">
-                Be on
-                <span className="text-5xl sm:text-7xl">Time</span>
+              <h1 className="font-bebas-neue py-5 uppercase text-6xl sm:text-8xl font-black flex flex-col leading-none dark:text-black text-gray-800">
+                Lorem
+                <span className="text-5xl sm:text-7xl">Ipsum</span>
               </h1>
               <p className="text-sm sm:text-base text-gray-700 dark:text-black">
-                Dimension of reality that makes change possible and
-                understandable. An indefinite and homogeneous environment in
-                which natural events and human existence take place.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur at justo cursus, semper dolor non, aliquam metus. Nunc
+                consectetur lorem quis dapibus scelerisque. Suspendisse est
+                nisl, vehicula ut facilisis sed, mollis eu odio. Maecenas
+                blandit rutrum nunc gravida posuere. Aenean condimentum dui eget
+                ex fringilla, fringilla mattis orci accumsan. Duis nunc lorem,
+                ultrices ut purus vel, auctor vestibulum magna. Duis aliquet leo
+                sit amet nulla accumsan aliquet. Phasellus eu lacinia lorem.
+                Suspendisse rutrum venenatis erat ac volutpat.
               </p>
               <div className="flex mt-8">
                 <a
@@ -65,8 +71,8 @@ const Home = () => {
             </div>
             <div className="hidden sm:block sm:w-1/3 lg:w-3/5 relative">
               <img
-                src="../../public/iphone.png"
-                classNameName="max-w-xs md:max-w-sm m-auto"
+                src="https://raw.githubusercontent.com/maddoxx099/epidice/master/public/iphone.png"
+                className="max-w-xs md:max-w-sm m-auto"
               />
             </div>
           </div>
