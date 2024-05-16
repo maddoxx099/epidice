@@ -9,8 +9,15 @@ function App() {
         <Route path="home" element={<Home />} />
       </Routes>
       <div className="App">
-        <Navbar />
+        <div className="h-[10%]">
+          <Navbar />
+        </div>
+        <div className="h-[90%]">
+
+        <Home/>
+        </div>
       </div>
+      
     </BrowserRouter>
   );
 }
